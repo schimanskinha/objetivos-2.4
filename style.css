@@ -3,7 +3,7 @@
 :root {
     --cor-de-fundo: #e0b5d9;
     --rosa: #d19dc1;
-    --branco: #817081;
+    --branco: #020002;
     --botao-ativo: rgb(226, 146, 210);
     --botao-inativo: rgba(0, 0, 0, 0.5);
     --texto-fundo: rgba(0, 0, 0, 0.3);
@@ -32,13 +32,13 @@
         }
         
         .titulo-principal span {
-        color: var(--rosa);
+        color: var(--preto);
         }
         
         .botao {
         font-family: "Crakra Petch", sans-serif;
         background-color: var(--botao-inativo);
-        color: var(--branco);
+        color: var(--rosa);
         display: flex;
         justify-content: center;
         padding: 1em;
@@ -61,7 +61,7 @@
         
         .ativo {
         background-color: var(--botao-ativo);
-        border-bottom: 4px solid var(--verde);
+        border-bottom: 4px solid var(--rosa claro);
         }
         @media screen and (min-width: 768px) {
         .botoes {
